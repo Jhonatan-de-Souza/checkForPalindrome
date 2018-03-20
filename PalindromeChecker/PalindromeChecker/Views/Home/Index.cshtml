@@ -17,10 +17,10 @@
                 function () {
                     var word = $("#paliWord").val();
                     $.ajax({
-                        url: "http://127.0.0.1:8081/palicheck/"+word,
-                        dataType:'json',
+                        type: 'get',
+                        url: "http://127.0.0.1:8081/palicheck/"+word, //actual server would go here
+                        dataType:'application/json',
                         success: function (data) {
-                            alert('Done');
                             alert(data);
                         }
                     });
