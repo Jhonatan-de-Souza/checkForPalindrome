@@ -1,4 +1,4 @@
-# checkForPalindrome
+# Check for Palindrome
 To run the app:
  
 1. cd into the nodeJs app and run node server.js
